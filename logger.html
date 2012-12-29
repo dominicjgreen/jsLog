@@ -1,0 +1,32 @@
+<html>
+<head>
+<script src="jsLog.js"></script>
+<script src="log.js"></script>
+
+<script>
+	//Log Out
+	log.out(0);
+	//Log Error
+	log.error(1);
+	//Log Warn
+	log.warn(2);
+	//Log Info
+	log.info(3);
+	//Log out with a variable
+	log.out(4,"run time variable");
+
+	//Group some logs together
+	log.group(5);
+	log.out(6);
+	log.warn(7);
+	log.groupEnd();
+	//Group End
+
+	log.out(8);
+</script>
+</head>
+<body>
+	<h1>A simple javascript logging system which extracts the log messages from the code itself for production use.</h1>
+</body>
+</html>
+
