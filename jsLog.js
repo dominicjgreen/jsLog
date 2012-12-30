@@ -11,6 +11,9 @@ function JS_Logger(logLevel,logArray){
 		this.logArray = logArray;
 	}
 }
+//Js log 1.1
+//Author Dominic Green www.dominicjgreen.com / https://github.com/dominicjgreen/jsLog
+//You are free to use this code however you feel, but must keep the message above intact.
 JS_Logger.prototype.useUrl = function(name){
  		name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
  		var regexS = "[\\?&]"+name+"=([^&#]*)";
